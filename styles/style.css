@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Forum&display=swap');
+
+:root {
+  --fonte-primaria: 'Arimo', sans-serif;
+  --fonte-nome: 'Forum', serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: var(--fonte-primaria);
+}
+
+.background__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/fundo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-x;
+  z-index: -999;
+}
+
+.animate-up {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 10%;
+}
+
+.animatedText span {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.animatedText span:hover {
+  transform: translateY(-5px);
+}
+
+.animatedText span.jump {
+  animation: jumpAnimation 0.3s ease-in-out;
+}
+
+@keyframes jumpAnimation {
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+.name {
+  font-family: var(--fonte-nome);
+  font-weight: 300;
+  font-size: 45px;
+  padding: 0 0 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 10%;
+  gap: 25px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  display: flex;
+  gap: 12px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.project__details:hover {
+  color: #ececec;
+}
+
+.preview__image {
+  border-radius: 8px;
+  max-height: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.project__details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.project__name {
+  font-size: 18px;
+}
+
+.project__description {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 10%;
+  gap: 8px;
+}
+
+.contacts {
+  font-size: 18px;
+  padding: 0 0 12px 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 2%;
+}
+
+.logo__rede__social {
+  max-height: max-content;
+}
+
+.rede__social__link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  max-height: 24px;
+}
+
+.rede__social__link:hover {
+  color: #ececec;
+}
+
+@media (min-width: 900px) {
+  .name {
+    font-size: 50px;
+  }
+
+  .about {
+    font-size: 24px;
+    padding: 10px 0 20px;
+  }
+
+  .projects {
+    font-size: 24px;
+  }
+
+  .project__name {
+    font-size: 24px;
+  }
+
+  .project__description {
+    font-size: 18px;
+  }
+
+  header {
+    padding: 2% 10%;
+    font-size: 24px;
+  }
+
+  main {
+    padding: 2% 10%;
+  }
+
+  .preview__image {
+    max-height: 200px;
+  }
+
+  footer {
+    padding: 2% 10%;
+    font-size: 24px;
+  }
+
+  .contacts {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 500px) {
+  .card {
+    flex-direction: row;
+  }
+}
