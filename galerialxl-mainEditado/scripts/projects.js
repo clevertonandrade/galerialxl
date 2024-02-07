@@ -21,7 +21,7 @@ const projects = [
     'name': 'E-books desenvolvidos',
     'description': 'Sob o apoio da FAPEMIG publiquei dois eBooks: o primeiro aborda a formalização do Microempreendedor Individual, enquanto o segundo explora a plataforma Thunkable para programação em blocos. Acessando essa página você pode baixar ambos conteúdos.',
     'image': './assets/ebooks.png',
-    'link': 'https://www.instagram.com/gustavolxl/'
+    'link': 'https://linktr.ee/fluiibirite'
   },
   {
     'name': 'Sinapse',
