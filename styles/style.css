@@ -68,7 +68,7 @@ header {
 .name {
   font-family: var(--fonte-nome);
   font-weight: 300;
-  font-size: 45px;
+  font-size: 35px;
   padding: 0 0 10px;
 }
 
@@ -174,7 +174,7 @@ footer {
 
 @media (min-width: 900px) {
   .name {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .about {
