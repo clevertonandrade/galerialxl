@@ -1,7 +1,7 @@
 const projects = [
   {
     'name': 'Galeria LXL',
-    'description': 'Durante minhas atividades precisei desenvolver logos e artes para os projetos, e então isso se tornou um hobby, aqui você pode conferir alguns dos resultados',
+    'description': 'Durante minhas atividades precisei desenvolver logos e artes para os projetos, e então isso se tornou um hobby, aqui você pode conferir alguns dos resultados.',
     'image': './assets/galerialxl.png',
     'link': 'https://www.instagram.com/starifmg/'
   },
