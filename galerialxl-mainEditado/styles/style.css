@@ -68,7 +68,7 @@ header {
 .name {
   font-family: var(--fonte-nome);
   font-weight: 300;
-  font-size: 90px;
+  font-size: 60px;
   padding: 0 0 10px;
 }
 
