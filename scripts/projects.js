@@ -1,32 +1,32 @@
 const projects = [
   {
     'name': 'Galeria LXL',
-    'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore quas rem numquam recusandae vitae aperiam sunt at harum temporibus soluta corporis, perferendis tenetur neque magnam assumenda ab dolor quasi!',
-    'image': './assets/galerialxl.png',
-    'link': 'https://www.instagram.com/galerialxl/'
+    'description': 'Durante minhas atividades precisei desenvolver logos e artes para os projetos, e então isso se tornou um hobby, aqui você pode conferir alguns dos resultados.',
+    'image': './assets/projects/galerialxl.png',
+    'link': 'https://www.instagram.com/starifmg/'
   },
   {
     'name': 'Starifmg',
-    'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore quas rem numquam recusandae vitae aperiam sunt at harum temporibus soluta corporis, perferendis tenetur neque magnam assumenda ab dolor quasi!',
-    'image': './assets/starifmg.png',
+    'description': 'Starif é um programa educacional desenvolvido no IFMG - Campus Ibirité, que envolve os alunos em atividades formentadas pelo MCTI, NASA e Las Cumbes Observatory, promovendo a exploração e o estudo do universo.',
+    'image': './assets/projects/starifmg.png',
     'link': 'https://www.instagram.com/starifmg/'
   },
   {
     'name': 'Code System',
-    'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore quas rem numquam recusandae vitae aperiam sunt at harum temporibus soluta corporis, perferendis tenetur neque magnam assumenda ab dolor quasi!',
-    'image': './assets/codesystem.png',
+    'description': 'Trata-se de uma empresa incubada no Ambiente de Inovação - FLUI, cujo objetivo é fortalecer a presença online de empreendedores locais por meio da criação de websites e uma identidade visual robusta.',
+    'image': './assets/projects/codesystem.jpg',
     'link': 'https://www.instagram.com/codesystem.ifmg/'
   },
   {
     'name': 'E-books desenvolvidos',
-    'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore quas rem numquam recusandae vitae aperiam sunt at harum temporibus soluta corporis, perferendis tenetur neque magnam assumenda ab dolor quasi!',
-    'image': './assets/ebooks.png',
-    'link': 'https://www.instagram.com/gustavolxl/'
+    'description': 'Sob o apoio da FAPEMIG publiquei dois eBooks: o primeiro aborda a formalização do Microempreendedor Individual, enquanto o segundo explora a plataforma Thunkable para programação em blocos. Acessando essa página você pode baixar ambos conteúdos.',
+    'image': './assets/projects/ebooks.png',
+    'link': 'https://linktr.ee/fluiibirite'
   },
   {
     'name': 'Sinapse',
-    'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore quas rem numquam recusandae vitae aperiam sunt at harum temporibus soluta corporis, perferendis tenetur neque magnam assumenda ab dolor quasi!',
-    'image': './assets/sinapse.png',
+    'description': 'Projeto desenvolvido e selecionado como finalista na VI Olimpíada de Inovação, visando a diminuição do desperdício de alimentos perecíveis em hortifrutis, sacolões, supermercados e entre os consumidores.',
+    'image': './assets/projects/sinapse.png',
     'link': 'https://www.instagram.com/galerialxl/'
   }
 ] 

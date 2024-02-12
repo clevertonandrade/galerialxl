@@ -68,8 +68,9 @@ header {
 .name {
   font-family: var(--fonte-nome);
   font-weight: 300;
-  font-size: 35px;
-  padding: 0 0 10px;
+  font-size: 70px;
+  max-width: min-content;
+  margin: 250px 0;
 }
 
 main {
@@ -89,22 +90,22 @@ a {
   text-decoration: none;
 }
 
-.cards {
+.projects-cards {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.card {
+.project-card {
   display: flex;
   gap: 12px;
   padding: 8px;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-direction: column;
 
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.21);
+  background: rgba(255, 255, 255, 0.137);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7px);
@@ -112,28 +113,28 @@ a {
   border: 1px solid rgba(255, 255, 255, 1);
 }
 
-.project__details:hover {
-  color: #ececec;
-}
-
-.preview__image {
+.preview-image {
   border-radius: 8px;
   max-height: 100px;
   max-width: 100%;
   height: auto;
 }
 
-.project__details {
+.project-details {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.project__name {
+.project-details:hover {
+  color: #ececec;
+}
+
+.project-name {
   font-size: 18px;
 }
 
-.project__description {
+.project-description {
   font-size: 12px;
   margin-bottom: 10px;
 }
@@ -145,36 +146,30 @@ footer {
   gap: 8px;
 }
 
-.contacts {
-  font-size: 18px;
-  padding: 0 0 12px 0;
-}
-
-.links {
+.social-media-links {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 2%;
+  padding: 1%;
 }
 
-.logo__rede__social {
+.logo-rede-social {
   max-height: max-content;
 }
 
-.rede__social__link {
+.social-media-link {
   display: flex;
   align-items: center;
   gap: 5px;
   max-height: 24px;
 }
 
-.rede__social__link:hover {
+.social-media-link:hover {
   color: #ececec;
 }
 
 @media (min-width: 900px) {
   .name {
-    font-size: 35px;
+    font-size: 90px;
+    margin: 180px 0;
   }
 
   .about {
@@ -186,11 +181,11 @@ footer {
     font-size: 24px;
   }
 
-  .project__name {
+  .project-name {
     font-size: 24px;
   }
 
-  .project__description {
+  .project-description {
     font-size: 18px;
   }
 
@@ -203,7 +198,11 @@ footer {
     padding: 2% 10%;
   }
 
-  .preview__image {
+  .presentation {
+    margin: 150px 0;
+  }
+
+  .preview-image {
     max-height: 200px;
   }
 
@@ -211,14 +210,10 @@ footer {
     padding: 2% 10%;
     font-size: 24px;
   }
-
-  .contacts {
-    font-size: 24px;
-  }
 }
 
 @media (min-width: 500px) {
-  .card {
+  .project-card {
     flex-direction: row;
   }
 }

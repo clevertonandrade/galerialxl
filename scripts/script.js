@@ -13,29 +13,29 @@ document.addEventListener("DOMContentLoaded", function () {
     span.classList.add("jump");
   });
 
-  const cardsContainer = document.getElementById('cards');
+  const cardsContainer = document.getElementById('projects-cards');
 
   projects.forEach((project, index) => {
     const card = document.createElement("div");
-    card.setAttribute('class', 'card');
+    card.setAttribute('class', 'project-card');
 
     const a = document.createElement("a");
     a.setAttribute('href', project.link);
 
     const img = document.createElement("img");
-    img.setAttribute('class', 'preview__image');
+    img.setAttribute('class', 'preview-image');
     img.setAttribute('src', project.image);
     img.setAttribute('alt', project.name);
 
     const section = document.createElement("section");
-    section.setAttribute('class', 'project__details');
+    section.setAttribute('class', 'project-details');
 
     const projectName = document.createElement("p");
-    projectName.setAttribute('class', 'project__name');
+    projectName.setAttribute('class', 'project-name');
     projectName.innerText = project.name;
 
     const projectDescription = document.createElement("span");
-    projectDescription.setAttribute('class', 'project__description');
+    projectDescription.setAttribute('class', 'project-description');
     projectDescription.innerText = project.description;
 
     cardsContainer.appendChild(a);
